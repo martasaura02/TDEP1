@@ -1,0 +1,23 @@
+body {
+    background-color: lightpink;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+      
+  }
+  
+  p {
+    color: black;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    background-color: yellow;
+  }
+
+ 

@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    background-color: antiquewhite;
+
+}
+
+h1 {
+    font-weight: lighter;
+    background-color: white;
+}
+h2 {
+    color: gray;
+    font-size: 8pt;
+}
+ul {
+    color: gray;
+    list-style: none;
+    font-size: 8pt;
+    background-color: white;
+    padding: 5%;
+}  
+li {
+    background-color:lightyellow;
+    display: inline-block;
+}
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;  
+  }

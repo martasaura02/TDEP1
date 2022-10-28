@@ -1,0 +1,54 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    background-color:white;
+}
+div {
+    height: 1920px;
+    padding: 100px;
+}
+#cabecera{
+    background-image: url("fondo.jpg");
+    height: 500px;
+    background-color: black;
+}
+#principal{
+    margin-left: auto;
+    margin-right: auto;
+}
+#centro{
+    background-color:white;
+}
+#pie{
+    height: 300px;
+}
+h1 {
+    font-weight: lighter;
+    padding: 5%;
+}
+h2 {
+    color: gray;
+    font-size: 8pt;
+    padding: 5%;
+}
+p {
+    padding: 5%;
+}
+    
+#primeralista {
+    color: gray;
+    list-style: none;
+    font-size: 8pt;
+    padding: 5%;
+}  
+#segundalista {
+    color: white;
+    list-style: none;
+    font-size: 15pt;
+    padding: 5%;
+    background-color:black;
+}  
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;  
+  }

@@ -2,8 +2,41 @@ header{
   /*background-image: url(IMG_8946.jpg);*/
   background-image: url("IMG_8946.jpg");
   background-position: center;
-  text-align: center;
-  color: pink;
+  text-align: right;
+  color: white;
   font-style: serif;
   height: 300px;
+}
+
+ul{
+  list-style: none;
+}
+
+h1{
+  margin-right: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+h2{
+  margin-right: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+h3{
+  margin-right: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+p{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }

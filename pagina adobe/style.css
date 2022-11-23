@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.texto{
+    margin-left: 4cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#primer link{
+    color:blue;
+    text-decoration: none;
+}
+
+#segundo link{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+header {
+    margin-bottom: 2cm;
+    height: 2%;
+ }
+
+ body{
+     background-image: url(fondo-1400x860.jpg);
+ }
+
+ .adobe{
+     height: 80px;
+
+     margin-left: 4cm;
+ }
+
+ ul{
+     margin-left: 80%;
+ }
+
+ footer{
+     color: rgb(44, 44, 44);
+ }

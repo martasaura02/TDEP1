@@ -4,10 +4,6 @@
     margin: 0;
 }
 
-.texto{
-    margin-left: 4cm;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 #primer link{
     color:rgb(85, 85, 168);
@@ -15,12 +11,52 @@
 }
 
 #segundo link{
-    background-color: #f44336;
+    position: absolute;
+    background-color: #7eb5f3;
     color: white;
-    padding: 14px 25px;
-    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10pt;
+    border-radius: 5px;
+  
+}
+
+#Izquierda{
+    position:absolute;
+    top:20%;
+    left: 10%;
+    width: 40%;
+    height: 80%;
+   
+
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#Derecha{
+    position:absolute;
+    bottom: 6%;
+    right: 10%;
+    left: 60%;
+    
+    width: 40%;
+    height: 80%;
+
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -29,14 +65,26 @@ header {
     height: 2%;
  }
 
- body{
+ section{
      background-image: url(fondo-1400x860.jpg);
+     height: 95vh;
+     width: 100%;
+     position: relative;
+     background-clip: border-box;
  }
 
  .adobe{
      height: 80px;
 
      margin-left: 4cm;
+ }
+
+.aplicacion{
+    height: 40px;
+}
+
+ .paleta{
+    height: 40px;
  }
 
  .menú{
@@ -60,6 +108,12 @@ nav ul li{
 
 }
 
- footer{
-     color: rgb(44, 44, 44);
- }
+footer ul{
+    width: 100%;
+ height: 8em;
+ background-color: black;
+ color:white;
+ display:flex;
+ justify-content:space-around;
+ align-items: center;
+}

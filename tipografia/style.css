@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: darkgrey;
+}
+
+
+
+#Primera{
+
+    display: flex;
+    position:absolute;
+    top:1%;
+    left: 1%;
+    width: 32%;
+    height: 32%;
+   
+    font-size: 90%;
+    font-family: 'BhuTuka Expanded One', cursive;
+    background-color: rgb(255, 255, 255);
+    
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+ 
+}
+
+
+#Segunda{
+
+    display: flex;
+    position:absolute;
+    top:1%;
+    left: 34%;
+    width: 32%;
+    height: 32%;
+
+    font-size: 90%;
+    font-family: 'Rubik Distressed', cursive;
+    background-color: white;
+    
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+
+}
+
+#Tercera{
+
+    display: flex;
+    position:absolute;
+    top:1%;
+    right: 1%;
+    width: 32%;
+    height: 32%;
+
+    font-size: 100%;
+    font-family: 'Anton', sans-serif; 
+    background-color: white;
+    
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+
+}
+
+#Cuarta{
+
+    display: flex;
+    position:absolute;
+    top:34%;
+    left: 1%;
+    width: 32%;
+    height: 32%;
+
+    font-size: 100%;
+    font-family: 'Lobster', cursive; 
+    background-color:white;
+    
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+ 
+}
+
+
+#Quinta{
+
+    display: flex;
+    position:absolute;
+    top:34%;
+    left: 34%;
+    width: 32%;
+    height: 32%;
+ 
+    font-size: 90%;
+    font-family: 'Fredoka One', cursive;
+    background-color: white;
+    
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+
+}
+
+#Sexta{
+
+    display: flex;
+    position:absolute;
+    top:34%;
+    right: 1%;
+    width: 32%;
+    height: 32%;
+
+    font-size: 80%;
+    font-family: 'Cinzel', serif;  
+    background-color: white;
+    
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+
+}
+
+#Septima{
+
+    display: flex;
+    position:absolute;
+    bottom:1%;
+    left: 1%;
+    width: 32%;
+    height: 32%;
+
+    font-size: 100%;
+    font-family: 'Covered By Your Grace', cursive;
+    background-color: white;
+    
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+
+}
+
+#Octava{
+
+    display: flex;
+    position:absolute;
+    bottom:1%;
+    left: 34%;
+    width: 32%;
+    height: 32%;
+
+    font-size: 80%;
+    font-family: 'Press Start 2P', cursive;
+    background-color: white;
+    
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+
+}
+
+#Novena{
+
+    display: flex;
+    position:absolute;
+    bottom:1%;
+    right: 1%;
+    width: 32%;
+    height: 32%;
+
+    font-size: 90%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color:white;
+    
+    flex-flow:column nowrap;
+    justify-content: flex-start;
+
+}
+
+

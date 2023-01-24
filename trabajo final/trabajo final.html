@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+      <title>Mi página web</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#MASA">De.MASA</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                      aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" 
+                            href="file:///Users/martasaura_/Documents/TDEP1/examen%20final/examen%20final.html#">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#Conóceme">Conóceme</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#servicios" id="navbarDropdown" 
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" 
+                                href="file:///Users/martasaura_/Documents/TDEP1/examen%20final/Gráfico%20MASA.html">Gráfico</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" 
+                                href="file:///Users/martasaura_/Documents/TDEP1/examen%20final/Ilustración%20MASA.html">Ilustración</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" 
+                                href="file:///Users/martasaura_/Documents/TDEP1/examen%20final/Fotograf%C3%ADa%20MASA.html">Fotografía</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contáctame" tabindex="-1" aria-disabled="true">Contáctame</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </header>
+
+        <section class="carrusel" id="carrusel">
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" 
+              aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="FOTOS.png" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>La Fábrica</h5>
+                  <p>FotoBook de fotografías realizadas en una fábrica antigua</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="REVUELTA.png" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>ReVuelta</h5>
+                  <p>Proyecto realizado para la identidad de las jornadas de la Easda</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="ILUSTRACIONES.png" class="d-block w-100" >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Ilustraciones</h5>
+                  <p>Serie de ilustraciones creadas para diferentes clientes y soportes</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </section>
+
+        <section class="Conóceme my-5" id="Conóceme">
+
+        <h2 class="my-5">¿Quién soy?</h2>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <p>Soy Marta Saura, una estudiante de diseño gráfico de la EASDA.</p>
+
+                <p>Comencé a cursar mis estudios en el año 2020, y actualmente me <br>
+                encuentro estudiando tercero, y muy feliz :).</p>
+
+                Si tuviese que describirme, utilizaría los abjetivos "Curiosa" y <br>
+                "Trabajadora", ya que me considero una persona que nunca se rinde, <br>
+                que consigue siempre realizar trabajos lo más cercanos al mundo <br>
+                profesional y que siempre, simpre, está hambrienta de diseño.<br>
+
+                Realizo todo tipo de trabajos, ye sea gráficos (como editoriales, de <br>
+                marca y otro tipo de diseños), ilustraciones y fotografías. Soy consciente <br>
+                de que aún me queda muchísimo por aprender, pero espero que esta página <br>
+                web deje ver un poquito de mí, que considero que vale la pena.</p>
+
+                <p>Espero que os guste mi trabajo, tanto como me gusta a mi.</p>
+
+                 
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="fotoyo.png">
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <section class="MisServicios my-5" id="servicios">
+          <h2 class="my-5">Mis Servicios</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="card">
+                  <img src="gráfico.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Gráfico</h5>
+                    <p class="card-text">En esta sección encontrarás mis trabajos enfocados al diseño gráfico.</p>
+                    <a href="file:///Users/martasaura_/Documents/TDEP1/examen%20final/Gráfico%20MASA.html" 
+                    class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                  <img src="ilustración.jpg" class="card-img-top" >
+                  <div class="card-body">
+                    <h5 class="card-title">Ilustración</h5>
+                    <p class="card-text">Si pinchas aquí verás algunas ilustraciones creadas por mi 
+                      propia cuenta o para algunos trabajos.</p>
+                    <a href="file:///Users/martasaura_/Documents/TDEP1/examen%20final/Ilustración%20MASA.html" 
+                    class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                  <img src="fotografía.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Fotografía</h5>
+                    <p class="card-text">Para conocer más sobre mis fotografías y todo lo que puedo hacer con 
+                      la cámara, este es el sitio. </p>
+                    <a href="file:///Users/martasaura_/Documents/TDEP1/examen%20final/Fotograf%C3%ADa%20MASA.html" 
+                    class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </section>
+
+          <section class="Másinfo my-5" id="MASA">
+    
+            <div class="container">
+              <div class="row">
+
+                <div class="col-6">
+                  <img class="img-fluid" src="LOGO.png">
+                </div>
+
+                <div class="col-6">
+    
+                    <p>De.MASA, mi cuenta personal de diseño.</p>
+
+                    <p>MASA nace del concepto de utilizar la combinación entre mi nombre, <br>
+                      Marta, y mi primer apellido, Saura. La mezcla de ambas crea una palabra<br>
+                      que todos conocemos, MASA, una palabra que significa algo a lo que darle forma, <br>
+                      y eso es para mi el diseño, un conjunto de elementos que unidos y formados, <br>
+                      pueden crear algo increíble.</p>
+    
+                    <p>Si a parte de conocerme a través de esta página web, te <br>
+                    apetece saber un poquito más de mí,te dejo mis redes sociales.</p>
+    
+                    Instagram: De.MASA <br>
+                    Behance: MASA.design<br>
+
+                    <p>Allí nos vemos :) !</p>
+    
+                     
+                </div>
+              </div>
+            </div>
+            </section>
+
+          <section class="Contáctame py-5" id="contáctame">
+            <h2 class="text-center">Contáctame</h2>
+            <div class="container">
+              <form>
+                <div class="mb-3">
+                  <label for="Nombre" class="form-label">Correo electrónico</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Este correo no será enviado a nadie más.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Asunto</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Quiero que me lleguen notificaciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Contactar</button>
+              </form>
+            </div>
+          </section>
+  
+
+    </body>
+
+    </html>

@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+#super{
+    background-color: rgb(78, 166, 218);
+    
+}
+
+#cero{
+    background-color: rgb(196, 245, 247);
+    height: 15vh;
+}
+
+
+#Uno{
+    background-color: rgb(95, 196, 196);
+    height: 70vh;
+}
+
+#Dos{
+    background-color: rgb(92, 177, 211);
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex-flow: row wrap;
+}
+
+#Doce{
+    background-color: beige;
+}
+
+#caja{
+    width: 150px;
+    height: 150px;
+    margin:1%;
+    background-color: rgb(50, 92, 121);
+}

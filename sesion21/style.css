@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+#uno{
+    height: 20vh;
+}
+
+#menu1{
+    
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#menu1 ul li{
+    display:inline-block;
+}
+ 
+
+#contenido2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom-style: solid ;
+    border-bottom-color: #DDD;
+    border-bottom-width: 2px;
+}
+
+
+
+

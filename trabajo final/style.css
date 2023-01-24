@@ -1,0 +1,50 @@
+.Contáctame{
+    color: white;
+    background-color: rgb(39, 56, 46);
+ }
+
+body{
+    background-color: rgb(173, 197, 182);
+}
+
+header{
+    background-color:rgb(39, 56, 46);
+}
+
+.Conóceme{
+    border-radius: 6%;
+    text-align: justify;
+    line-height: 2em;
+    color: white;
+    
+}
+
+.Másinfo{
+    text-align: justify;
+    line-height: 2em;
+    color: white;
+    
+}
+
+#carrusel{
+    color: black;
+}
+
+.MisServicios{
+    text-align: center;
+   color: white;
+}
+
+.card{
+    text-align: center;
+    color: rgb(39, 56, 46);
+}
+
+h2{
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+}
+
+.Ilustraciones{
+    color: white;
+}
